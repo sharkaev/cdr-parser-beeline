@@ -1,0 +1,43 @@
+{
+  "sms": {
+    "columns": {
+      "dt": 20,
+      "ctn": 4,
+      "b_phone_num": 5,
+      "sms_length": 26
+    },
+    "dtypes": {
+      "dt": "datetime"
+    }
+  },
+
+  "voice": {
+    "columns": {
+      "dt": 2,
+      "ctn": 4,
+      "b_phone_num": 5,
+      "duration_nval": 22,
+      "calling_cell_id": 13,
+      "called_cell_id": 15
+    },
+    "dtypes": {
+      "dt": "datetime"
+    }
+  },
+  "network": {
+    "columns": {
+      "dt": 2,
+      "ctn": 4,
+      "total_flux": 16,
+      "up_flux": 17,
+      "down_flux": 18,
+      "elapse_duration": 19,
+      "calling_cell_id": 11,
+      "end_dt": 128
+    },
+    "dtypes": {
+      "dt": "datetime",
+      "end_dt": "datetime"
+    }
+  }
+}
